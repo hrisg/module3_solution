@@ -1,20 +1,21 @@
 body {
   font-size: 16px;
   color: black;
-  background-color: #61122f;
   font-family: 'Oxygen', sans-serif;
 }
 
 /** HEADER **/
 #header-nav {
-  background-color: #f6b319;
+  background-color: #33ffaad1;
   border-radius: 0;
   border: 0;
+  padding: 5px;
+
+
 }
 
 .navbar-brand { /* Restaurant name */
   font-family: 'Oxygen', sans-serif;
-  color: #557c3e;
   font-size: 40px;
   margin-top: 0;
   margin-bottom: 0;
@@ -24,10 +25,19 @@ body {
 #main-content{
 	margin-top: 0;
   margin-bottom: 0;
-  border-top: 0;
+  
+
 
 }
+.jumbotron{
+	background-color: #b3ffe6c7;
+}
 #chicken{
-	margin-top: 0;
+	margin-top: -40px;
 	margin-bottom: 0;
+	padding: 5px;
+}
+a:hover{
+  background: #00cc44 !important;
+  color: red;
 }
